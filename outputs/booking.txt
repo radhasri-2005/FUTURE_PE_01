@@ -1,0 +1,23 @@
+Booking Section:
+
+Reserve Your Table
+
+Skip the wait and enjoy your time without hassle.
+
+Fill in your details to book your table:
+
+- Name
+- Phone Number
+- Date
+- Time
+- Number of People
+- Message (optional)
+
+CTA:
+Reserve Your Table Now
+
+Urgency:
+Limited seats available — book early to avoid waiting.
+
+Extra:
+You will receive confirmation via call or WhatsApp.

@@ -1,0 +1,886 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CafeAura – Sip. Relax. Repeat. | Visakhapatnam</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ══════════════════════════════════════════ NAV ══ -->
+    <nav id="navbar">
+      <div class="nav-inner">
+        <a class="logo" href="#hero">
+          <span class="logo-icon">☕</span>
+          <span>CafeAura</span>
+        </a>
+        <ul class="nav-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#features">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="#booking" class="nav-cta">Reserve Now</a>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+      <div class="mobile-menu" id="mobileMenu">
+        <a href="#hero" onclick="closeMobile()">Home</a>
+        <a href="#about" onclick="closeMobile()">About</a>
+        <a href="#menu" onclick="closeMobile()">Menu</a>
+        <a href="#features" onclick="closeMobile()">Experience</a>
+        <a href="#booking" onclick="closeMobile()">Reserve</a>
+        <a href="#contact" onclick="closeMobile()">Contact</a>
+        <a href="#booking" class="mob-cta" onclick="closeMobile()"
+          >Book a Table</a
+        >
+      </div>
+    </nav>
+
+    <!-- ══════════════════════════════════════════ HERO ══ -->
+    <section id="hero">
+      <div class="hero-bg">
+        <div class="hero-overlay"></div>
+        <div class="hero-img-grid">
+          <div class="himg h1"></div>
+          <div class="himg h2"></div>
+          <div class="himg h3"></div>
+          <div class="himg h4"></div>
+        </div>
+      </div>
+
+      <div class="hero-content">
+        <div class="hero-badge">✦ Visakhapatnam's Beloved Cafe ✦</div>
+        <h1 class="hero-title">
+          <span class="line">Sip.</span>
+          <span class="line italic">Relax.</span>
+          <span class="line">Repeat.</span>
+        </h1>
+        <p class="hero-sub">
+          Your favorite cafe spot in Visakhapatnam for<br />Coffee,
+          Conversations &amp; Comfort
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Visit Now</a>
+          <a href="#booking" class="btn btn-outline">Book a Table</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-num">500+</span
+            ><span class="stat-label">Happy Customers</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-num">30+</span
+            ><span class="stat-label">Menu Items</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-num">4.9★</span
+            ><span class="stat-label">Rating</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-scroll-hint">
+        <span>Scroll to explore</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════ MARQUEE ══ -->
+    <div class="marquee-strip">
+      <div class="marquee-track">
+        <span>☕ Freshly Brewed Coffee</span>
+        <span>✦</span>
+        <span>🥐 Artisan Pastries</span>
+        <span>✦</span>
+        <span>🌿 Cozy Ambiance</span>
+        <span>✦</span>
+        <span>🍰 Heavenly Desserts</span>
+        <span>✦</span>
+      </div>
+    </div>
+
+    <!-- ══════════════════════════════════════════ ABOUT ══ -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-images">
+            <div class="about-img-main">
+              <div class="aimg ai1"></div>
+              <div class="about-img-badge">
+                <span class="badge-num">5+</span>
+                <span class="badge-txt">Years of Warmth</span>
+              </div>
+            </div>
+            <div class="about-img-small">
+              <div class="aimg ai2"></div>
+              <div class="aimg ai3"></div>
+            </div>
+          </div>
+          <div class="about-text">
+            <div class="section-tag">Our Story</div>
+            <h2 class="section-title">
+              Where Every Cup<br /><em>Tells a Story</em>
+            </h2>
+            <p class="about-body">
+              Nestled in the heart of Visakhapatnam, CafeAura is more than a
+              cafe — it's a feeling. We crafted every corner with warmth, every
+              recipe with love, and every moment with care.
+            </p>
+            <p class="about-body">
+              Whether you're catching up with friends, studying for exams, or
+              seeking a quiet corner to think — CafeAura wraps you in comfort.
+              Our beans are ethically sourced, our food made fresh daily, and
+              our staff always wearing a smile.
+            </p>
+            <div class="about-pillars">
+              <div class="pillar">
+                <div class="pillar-icon">🫘</div>
+                <div>
+                  <strong>Premium Beans</strong>
+                  <p>Sourced from the finest estates</p>
+                </div>
+              </div>
+              <div class="pillar">
+                <div class="pillar-icon">🍽️</div>
+                <div>
+                  <strong>Fresh Daily</strong>
+                  <p>Everything made with love</p>
+                </div>
+              </div>
+              <div class="pillar">
+                <div class="pillar-icon">🌸</div>
+                <div>
+                  <strong>Cozy Vibes</strong>
+                  <p>Your home away from home</p>
+                </div>
+              </div>
+            </div>
+            <a href="#menu" class="btn btn-primary">Explore Our Menu</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════ MENU ══ -->
+    <section id="menu" class="menu-section">
+      <div class="menu-bg-deco"></div>
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Our Menu</div>
+          <h2 class="section-title">Crafted With <em>Passion</em></h2>
+          <p class="section-sub">
+            Every item on our menu is a labor of love — made fresh, served warm,
+            enjoyed fully.
+          </p>
+        </div>
+
+        <div class="menu-tabs">
+          <button class="tab-btn active" data-tab="coffee">☕ Coffee</button>
+          <button class="tab-btn" data-tab="snacks">🥪 Snacks</button>
+          <button class="tab-btn" data-tab="desserts">🍰 Desserts</button>
+        </div>
+
+        <!-- Coffee Tab -->
+        <div class="tab-content active" id="tab-coffee">
+          <div class="menu-grid">
+            <div class="menu-card" style="--delay: 0s">
+              <div class="menu-img-wrap">
+                <div class="mimg espresso"></div>
+                <div class="menu-tag">Best Seller</div>
+              </div>
+              <div class="menu-info">
+                <div class="menu-top-row">
+                  <h3>Classic Espresso</h3>
+                  <span class="price">₹120</span>
+                </div>
+                <p>
+                  Bold, rich, and unapologetically strong. A pure shot of
+                  perfectly extracted espresso for the true coffee soul.
+                </p>
+                <div class="menu-meta">
+                  <span>☕ Hot</span><span>🕐 3 mins</span>
+                </div>
+              </div>
+            </div>
+            <div class="menu-card" style="--delay: 0.1s">
+              <div class="menu-img-wrap">
+                <div class="mimg cappuccino"></div>
+                <div class="menu-tag popular">Popular</div>
+              </div>
+              <div class="menu-info">
+                <div class="menu-top-row">
+                  <h3>Velvety Cappuccino</h3>
+                  <span class="price">₹160</span>
+                </div>
+                <p>
+                  Creamy steamed milk meets bold espresso beneath a pillow of
+                  silky micro-foam. Pure Italian magic.
+                </p>
+                <div class="menu-meta">
+                  <span>☕ Hot</span><span>🕐 5 mins</span>
+                </div>
+              </div>
+            </div>
+            <div class="menu-card" style="--delay: 0.2s">
+              <div class="menu-img-wrap">
+                <div class="mimg coldcoffee"></div>
+              </div>
+              <div class="menu-info">
+                <div class="menu-top-row">
+                  <h3>Cold Brew Bliss</h3>
+                  <span class="price">₹180</span>
+                </div>
+                <p>
+                  Slow-steeped for 24 hours, our cold brew is smooth,
+                  chocolatey, and dangerously refreshing.
+                </p>
+                <div class="menu-meta">
+                  <span>🧊 Iced</span><span>🕐 2 mins</span>
+                </div>
+              </div>
+            </div>
+            <div class="menu-card" style="--delay: 0.3s">
+              <div class="menu-img-wrap">
+                <div class="mimg latte"></div>
+                <div class="menu-tag new">New</div>
+              </div>
+              <div class="menu-info">
+                <div class="menu-top-row">
+                  <h3>Caramel Latte</h3>
+                  <span class="price">₹195</span>
+                </div>
+                <p>
+                  Buttery caramel swirled into a smooth latte — sweet,
+                  comforting, and utterly irresistible.
+                </p>
+                <div class="menu-meta">
+                  <span>☕ Hot / 🧊 Iced</span><span>🕐 5 mins</span>
+                </div>
+              </div>
+            </div>
+            <div class="menu-card" style="--delay: 0.4s">
+              <div class="menu-img-wrap">
+                <div class="mimg mocha"></div>
+              </div>
+              <div class="menu-info">
+                <div class="menu-top-row">
+                  <h3>Dark Mocha</h3>
+                  <span class="price">₹175</span>
+                </div>
+                <p>
+                  Rich chocolate meets bold espresso in this indulgent drink
+                  that blurs the line between dessert and coffee.
+                </p>
+                <div class="menu-meta">
+                  <span>☕ Hot</span><span>🕐 5 mins</span>
+                </div>
+              </div>
+            </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Snacks Tab -->
+        <div class="tab-content" id="tab-snacks">
+          <div class="menu-grid">
+            <div class="menu-card" style="--delay: 0s">
+              <div class="menu-img-wrap">
+                <div class="mimg sandwich"></div>
+                <div class="menu-tag">Chef's Pick</div>
+              </div>
+              <div class="menu-info">
+                <div class="menu-top-row">
+                  <h3>Club Sandwich</h3>
+                  <span class="price">₹220</span>
+                </div>
+                <p>
+                  Toasted multigrain bread layered with fresh veggies, herb
+                  mayo, and melted cheese. Classic comfort.
+                </p>
+                <div class="menu-meta">
+                  <span>🌿 Fresh</span><span>🕐 8 mins</span>
+                </div>
+              </div>
+            </div>
+            <div class="menu-card" style="--delay: 0.1s">
+              <div class="menu-img-wrap">
+                <div class="mimg burger"></div>
+                <div class="menu-tag popular">Popular</div>
+              </div>
+              <div class="menu-info">
+                <div class="menu-top-row">
+                  <h3>Aura Gourmet Burger</h3>
+                  <span class="price">₹280</span>
+                </div>
+                <p>
+                  A crispy patty, crunchy lettuce, pickles, and our signature
+                  aura sauce in a toasted brioche bun.
+                </p>
+                <div class="menu-meta">
+                  <span>🔥 Hot</span><span>🕐 12 mins</span>
+                </div>
+              </div>
+            </div>
+            <div class="menu-card" style="--delay: 0.2s">
+              <div class="menu-img-wrap">
+                <div class="mimg panini"></div>
+              </div>
+              <div class="menu-info">
+                <div class="menu-top-row">
+                  <h3>Grilled Panini</h3>
+                  <span class="price">₹240</span>
+                </div>
+                <p>
+                  Golden-pressed Italian panini with mozzarella, sundried
+                  tomatoes, and fresh basil. Pure satisfaction.
+                </p>
+                <div class="menu-meta">
+                  <span>🔥 Grilled</span><span>🕐 10 mins</span>
+                </div>
+              </div>
+            </div>
+            <div class="menu-card" style="--delay: 0.3s">
+              <div class="menu-img-wrap">
+                <div class="mimg fries"></div>
+                <div class="menu-tag new">New</div>
+              </div>
+              <div class="menu-info">
+                <div class="menu-top-row">
+                  <h3>Loaded Fries</h3>
+                  <span class="price">₹180</span>
+                </div>
+                <p>
+                  Crispy golden fries piled with cheese sauce, jalapeños, and
+                  sour cream. Snacking elevated.
+                </p>
+                <div class="menu-meta">
+                  <span>🧀 Loaded</span><span>🕐 8 mins</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Desserts Tab -->
+        <div class="tab-content" id="tab-desserts">
+          <div class="menu-grid">
+            <div class="menu-card" style="--delay: 0s">
+              <div class="menu-img-wrap">
+                <div class="mimg cake"></div>
+                <div class="menu-tag">Must Try</div>
+              </div>
+              <div class="menu-info">
+                <div class="menu-top-row">
+                  <h3>Velvet Dream Cake</h3>
+                  <span class="price">₹280</span>
+                </div>
+                <p>
+                  Red velvet layers kissed with cream cheese frosting. Every
+                  slice is a celebration in itself.
+                </p>
+                <div class="menu-meta">
+                  <span>🍰 Slice</span><span>✨ House Special</span>
+                </div>
+              </div>
+            </div>
+            <div class="menu-card" style="--delay: 0.1s">
+              <div class="menu-img-wrap">
+                <div class="mimg brownie"></div>
+                <div class="menu-tag popular">Popular</div>
+              </div>
+              <div class="menu-info">
+                <div class="menu-top-row">
+                  <h3>Fudge Brownies</h3>
+                  <span class="price">₹160</span>
+                </div>
+                <p>
+                  Dense, gooey, wickedly chocolatey brownies with a crinkly top.
+                  Best paired with a hot cappuccino.
+                </p>
+                <div class="menu-meta">
+                  <span>🍫 Chocolate</span><span>✨ Baked Fresh</span>
+                </div>
+              </div>
+            </div>
+            <div class="menu-card" style="--delay: 0.2s">
+              <div class="menu-img-wrap">
+                <div class="mimg cheesecake"></div>
+              </div>
+              <div class="menu-info">
+                <div class="menu-top-row">
+                  <h3>NY Cheesecake</h3>
+                  <span class="price">₹260</span>
+                </div>
+                <p>
+                  Silky smooth, perfectly tangy New York cheesecake on a buttery
+                  graham crust. Simple perfection.
+                </p>
+                <div class="menu-meta">
+                  <span>🧀 Classic</span><span>🍓 Seasonal Topping</span>
+                </div>
+              </div>
+            </div>
+            <div class="menu-card" style="--delay: 0.3s">
+              <div class="menu-img-wrap">
+                <div class="mimg tiramisu"></div>
+                <div class="menu-tag new">New</div>
+              </div>
+              <div class="menu-info">
+                <div class="menu-top-row">
+                  <h3>Tiramisu Jar</h3>
+                  <span class="price">₹220</span>
+                </div>
+                <p>
+                  Espresso-soaked ladyfingers and mascarpone cream in a cute
+                  jar. Italian dessert done right.
+                </p>
+                <div class="menu-meta">
+                  <span>☕ Coffee-based</span><span>✨ Chef's Fav</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-cta-row">
+          <a href="#booking" class="btn btn-primary"
+            >Reserve a Table to Try These</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════ FEATURES ══ -->
+    <section id="features" class="features-section">
+      <div class="container">
+        <div class="section-header light">
+          <div class="section-tag light-tag">The CafeAura Experience</div>
+          <h2 class="section-title light-title">
+            More Than Just <em>Coffee</em>
+          </h2>
+        </div>
+        <div class="features-grid">
+          <div class="feat-card" style="--delay: 0s">
+            <div class="feat-icon">🛋️</div>
+            <h3>Cozy Ambiance</h3>
+            <p>
+              Warm wooden interiors, soft lighting, and curated playlists. Every
+              corner is an Instagram moment and a comfortable escape.
+            </p>
+          </div>
+          <div class="feat-card" style="--delay: 0.2s">
+            <div class="feat-icon">👥</div>
+            <h3>Perfect Hangout Spot</h3>
+            <p>
+              Whether it's a first date, a study session, or a group outing —
+              CafeAura sets the perfect scene for every occasion.
+            </p>
+          </div>
+          <div class="feat-card" style="--delay: 0.3s">
+            <div class="feat-icon">🎵</div>
+            <h3>Curated Music</h3>
+            <p>
+              Handpicked ambient and jazz playlists that set the mood perfectly.
+              Never too loud, always just right.
+            </p>
+          </div>
+          <div class="feat-card" style="--delay: 0.4s">
+            <div class="feat-icon">🌱</div>
+            <h3>Sustainable Sourcing</h3>
+            <p>
+              We care about the planet. Our coffee beans are ethically sourced
+              and our packaging is eco-friendly.
+            </p>
+          </div>
+          <div class="feat-card" style="--delay: 0.5s">
+            <div class="feat-icon">📸</div>
+            <h3>Instagram-Worthy</h3>
+            <p>
+              Every dish, every corner, every cup is crafted for the 'gram. Come
+              for the coffee, stay for the photos.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════ MID CTA ══ -->
+    <section class="mid-cta-section">
+      <div class="mid-cta-bg"></div>
+      <div class="container">
+        <div class="mid-cta-content">
+          <div class="mcta-tag">✦ Limited Seats Daily ✦</div>
+          <h2>Your Perfect Table<br /><em>Awaits You</em></h2>
+          <p>
+            Don't wait in line. Book your favorite spot at CafeAura ahead of
+            time and walk in like you own the place.
+          </p>
+          <a href="#booking" class="btn btn-cream">Reserve Your Table Now →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════ TESTIMONIALS ══ -->
+    <section class="testimonials-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">What Guests Say</div>
+          <h2 class="section-title">Loved by <em>Everyone</em></h2>
+        </div>
+        <div class="testimonials-grid">
+          <div class="testi-card">
+            <div class="stars">★★★★★</div>
+            <p>
+              "The cold brew here is absolutely divine! I come here every
+              morning before work. The ambiance makes even Mondays bearable."
+            </p>
+            <div class="testi-author">
+              <div class="testi-avatar t1"></div>
+              <div>
+                <strong>Priya Sharma</strong><span>Software Engineer</span>
+              </div>
+            </div>
+          </div>
+          <div class="testi-card featured">
+            <div class="stars">★★★★★</div>
+            <p>
+              "CafeAura is our go-to for weekend brunches. The velvet cake +
+              cappuccino combo is unbeatable. Staff is always so warm and
+              welcoming!"
+            </p>
+            <div class="testi-author">
+              <div class="testi-avatar t2"></div>
+              <div>
+                <strong>Arjun &amp; Meena</strong><span>Regular Customers</span>
+              </div>
+            </div>
+          </div>
+          <div class="testi-card">
+            <div class="stars">★★★★★</div>
+            <p>
+              "Best study cafe in Vizag! The WiFi is great, seats are
+              comfortable, and the brownies keep me going through my revision
+              sessions!"
+            </p>
+            <div class="testi-author">
+              <div class="testi-avatar t3"></div>
+              <div>
+                <strong>Rithvik Nair</strong
+                ><span>Student, GITAM University</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════ BOOKING ══ -->
+    <section id="booking" class="booking-section">
+      <div class="booking-bg"></div>
+      <div class="container">
+        <div class="booking-grid">
+          <div class="booking-info">
+            <div class="section-tag">Table Reservation</div>
+            <h2 class="section-title light-title">
+              Reserve Your<br /><em>Perfect Spot</em>
+            </h2>
+            <p class="booking-sub">
+              Skip the wait. Book your table in advance and we'll have
+              everything ready for your arrival.
+            </p>
+            <div class="booking-highlights">
+              <div class="bh-item">
+                <span class="bh-icon">⚡</span>
+                <span>Instant confirmation via WhatsApp</span>
+              </div>
+              <div class="bh-item">
+                <span class="bh-icon">🎁</span>
+                <span>First-time guests get a complimentary cookie</span>
+              </div>
+              <div class="bh-item">
+                <span class="bh-icon">🕐</span>
+                <span>Open 10 AM – 10 PM, every day</span>
+              </div>
+            </div>
+            <div class="booking-ambiance">
+              <div class="bimg ba1"></div>
+              <div class="bimg ba2"></div>
+            </div>
+          </div>
+
+          <div class="booking-form-wrap">
+            <div class="form-header">
+              <h3>Book Your Table</h3>
+              <p class="seats-warning">⚠️ Limited seats available today</p>
+            </div>
+            <form
+              id="bookingForm"
+              class="booking-form"
+              onsubmit="submitBooking(event)"
+            >
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="guestName">Your Name *</label>
+                  <input
+                    type="text"
+                    id="guestName"
+                    placeholder="e.g. Priya Sharma"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="guestPhone">Phone Number *</label>
+                  <input
+                    type="tel"
+                    id="guestPhone"
+                    placeholder="+91 98765 43210"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="bookDate">Date *</label>
+                  <input type="date" id="bookDate" required />
+                </div>
+                <div class="form-group">
+                  <label for="bookTime">Time *</label>
+                  <select id="bookTime" required>
+                    <option value="" disabled selected>Select time</option>
+                    <option>10:00 AM</option>
+                    <option>11:00 AM</option>
+                    <option>12:00 PM</option>
+                    <option>1:00 PM</option>
+                    <option>2:00 PM</option>
+                    <option>3:00 PM</option>
+                    <option>4:00 PM</option>
+                    <option>5:00 PM</option>
+                    <option>6:00 PM</option>
+                    <option>7:00 PM</option>
+                    <option>8:00 PM</option>
+                    <option>9:00 PM</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="guestCount">Number of Guests *</label>
+                <div class="guest-counter">
+                  <button
+                    type="button"
+                    class="counter-btn"
+                    onclick="changeGuests(-1)"
+                  >
+                    −
+                  </button>
+                  <span id="guestDisplay">2</span>
+                  <button
+                    type="button"
+                    class="counter-btn"
+                    onclick="changeGuests(1)"
+                  >
+                    +
+                  </button>
+                  <input type="hidden" id="guestCount" value="2" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="message">Special Request (Optional)</label>
+                <textarea
+                  id="message"
+                  rows="3"
+                  placeholder="Birthday celebration, window seat, dietary needs..."
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-full">
+                <span class="btn-txt">Reserve Your Table Now</span>
+                <span class="btn-icon">☕</span>
+              </button>
+              <p class="form-note">
+                We'll confirm your booking within 30 minutes via WhatsApp/Call.
+              </p>
+            </form>
+            <div class="booking-success" id="bookingSuccess">
+              <div class="success-icon">✅</div>
+              <h3>Booking Confirmed!</h3>
+              <p>
+                Thank you! We'll call you shortly to confirm your reservation at
+                CafeAura.
+              </p>
+              <a href="#menu" class="btn btn-outline" style="margin-top: 1rem"
+                >Browse Menu While You Wait</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════ GALLERY STRIP ══ -->
+    <section class="gallery-strip">
+      <div class="gallery-tag">📸 @cafeaura.vizag — Tag us on Instagram</div>
+      <div class="gallery-row">
+        <div class="gimg g1"></div>
+        <div class="gimg g2"></div>
+        <div class="gimg g3"></div>
+        <div class="gimg g4"></div>
+        <div class="gimg g5"></div>
+        <div class="gimg g6"></div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════ BOTTOM CTA ══ -->
+    <section class="bottom-cta">
+      <div class="container">
+        <div class="bcta-inner">
+          <div class="bcta-text">
+            <h2>Come Chill With Us<br /><em>Today</em> ☕</h2>
+            <p>
+              Perfect place to unwind, connect, and make memories.
+              Visakhapatnam's coziest corner is waiting for you.
+            </p>
+            <div class="bcta-actions">
+              <a href="#booking" class="btn btn-primary">Book Your Spot Now</a>
+              <a href="#contact" class="btn btn-outline-dark">Get Directions</a>
+            </div>
+          </div>
+          <div class="bcta-image">
+            <div class="bcta-img-inner"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════ CONTACT ══ -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-info-block">
+            <div class="section-tag">Find Us</div>
+            <h2 class="section-title">Visit <em>CafeAura</em></h2>
+            <p>
+              We're right here in Visakhapatnam, ready to pour you the best cup
+              of your day. Come say hello!
+            </p>
+            <div class="contact-items">
+              <div class="contact-item">
+                <div class="ci-icon">📍</div>
+                <div>
+                  <strong>Location</strong>
+                  <p>
+                    Beach Road Area, Visakhapatnam,<br />Andhra Pradesh, India
+                  </p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="ci-icon">📞</div>
+                <div>
+                  <strong>Phone</strong>
+                  <p>+91 9876543210</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="ci-icon">🕐</div>
+                <div>
+                  <strong>Opening Hours</strong>
+                  <p>Every Day: 10:00 AM – 10:00 PM</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="ci-icon">📧</div>
+                <div>
+                  <strong>Email</strong>
+                  <p>hello@cafeaura.in</p>
+                </div>
+              </div>
+            </div>
+            <div class="social-links">
+              <a href="#" class="social-btn">Instagram</a>
+              <a href="#" class="social-btn">WhatsApp</a>
+            </div>
+          </div>
+          <div class="map-placeholder">
+            <div class="map-inner">
+              <div class="map-pin">📍</div>
+              <div class="map-label">CafeAura</div>
+              <p>Visakhapatnam, AP</p>
+              <a
+                href="https://maps.google.com"
+                target="_blank"
+                class="btn btn-primary"
+                style="margin-top: 1rem"
+                >Open in Maps</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════ FOOTER ══ -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <div class="footer-logo">☕ CafeAura</div>
+            <p>
+              Sip. Relax. Repeat.<br />Visakhapatnam's most beloved cafe
+              experience.
+            </p>
+            <div class="footer-social">
+              <a href="#">📸</a>
+              <a href="#">👥</a>
+              <a href="#">💬</a>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#menu">Menu</a></li>
+              <li><a href="#features">Experience</a></li>
+              <li><a href="#booking">Reserve a Table</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Our Menu</h4>
+            <ul>
+              <li><a href="#menu">Coffee & Espresso</a></li>
+              <li><a href="#menu">Snacks & Bites</a></li>
+              <li><a href="#menu">Cakes & Desserts</a></li>
+              <li><a href="#menu">Seasonal Specials</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Visit Us</h4>
+            <p>Beach Road Area<br />Visakhapatnam, AP</p>
+            <p style="margin-top: 0.75rem">
+              <strong>Hours:</strong><br />Mon–Sun: 10 AM – 10 PM
+            </p>
+            <a href="#booking" class="footer-cta">Book a Table →</a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            © 2025 CafeAura. All rights reserved. Made with ☕ &amp; ❤️ in
+            Visakhapatnam.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

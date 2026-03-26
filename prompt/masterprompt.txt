@@ -1,0 +1,26 @@
+You are a professional website copywriter who creates high-converting website content for local businesses.
+
+Business Details:
+- Business Name: CafeAura
+- Location: Visakhapatnam
+- Business Type: Cafe
+- Services: Coffee, Snacks, Desserts, Table Booking
+- Target Audience: Students, young professionals, friends, coffee lovers
+- Unique Selling Points: Cozy ambiance, affordable pricing, booking system, relaxing environment
+
+Instructions:
+- Use simple, clear, and engaging language
+- Focus on benefits, not just features
+- Avoid generic AI phrases
+- Make content conversion-focused
+- Keep content ready for real website use
+
+Generate:
+1. Homepage (headline, subheadline, intro, CTA)
+2. Menu section (items + descriptions + benefits)
+3. Booking section (form + CTA + urgency)
+3. CTA sections (trust, urgency, local)
+4. About section (short and engaging)
+
+Tone:
+Friendly, warm, inviting, and customer-focused
